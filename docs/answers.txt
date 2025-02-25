@@ -1,0 +1,55 @@
+1. D:\School git\CEN4020\assignment2>git commit -a
+   [master 6808382] Actualy added git status output to docs/status.txt
+    1 file changed, 9 insertions(+)
+
+   D:\School git\CEN4020\assignment2>git push
+   Enumerating objects: 7, done.
+   Counting objects: 100% (7/7), done.
+   Delta compression using up to 24 threads
+   Compressing objects: 100% (3/3), done.
+   Writing objects: 100% (4/4), 520 bytes | 520.00 KiB/s, done.
+   Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+   remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+   To https://github.com/bominic27644/assignment2.git
+      3da7a6b..6808382  master -> master
+   e5..3da7a6b  master -> master
+
+2. running git shortlog shows that there is a total of 10 commits. 4 of them are mine and 6
+of them are from others.
+
+3. git log --follow README.md shows commits where this file was modified. This shows that it
+was last modified by me on Tue Feb 25 11:02:17 2025 -0500.
+
+4. Branches are used to split groups of commits so that they can later be merged into the
+main branch. They are also useful for experimenting without breaking the code in the main
+branch.
+
+5. git log shows a list of commits in the repository, while git status shows information
+about the repository's current state. git status shows the currently selected branch, whether
+it is up to date with the remote branch, changes that have not yet been added to an
+upcoming commit, and files that are not being tracked by git yet.
+
+6. Using git log --follow Vehicle.h, it shows all commits where that file was modified.
+
+7. git log --grep="file" shows commits with commit messages that include that word.
+
+8. Inheritance is where child classes inherit attributes from a parent class.
+Polymorphism allows different classes to share the same interface, causing them to have
+the same methods with different implementations.
+Encapsulation is the concept of forming a class by combining variables and functions that
+manipulate them.
+
+9. In the integration manager workflow, developers push changes to individual public
+repositories that are pulled by an integration manager. They resolve conflicts and push changes
+to a central repository, where all developers pull from. In the dictator and lieutenants
+workflow, developers still pull from a central repository. The differences from the other
+workflow are that groups of developers are assigned a lieutenant where they push their
+changes to. They resolve conflicts between commits from the developers they manage,
+then push their changes to a central dictator. The dictator merges commits from all
+lieutenants, solving any conflicts and pushing the resulting commits to a central
+repository.
+
+10. Compared to the centralized workflow, a team of 100 developers using the dictator and
+lieutenants workflow would result in less conflicts since they are not directly merging
+commits into the central repository. Instead, the dictator and lieutenants handle
+merging commits and solving any potential conflicts before they reach the central repository.
