@@ -1,3 +1,6 @@
+Date I did the git tutorials: 2/25/2025
+Date I created my GitHub account: 8/29/2016
+
 1. D:\School git\CEN4020\assignment2>git commit -a
    [master 6808382] Actualy added git status output to docs/status.txt
     1 file changed, 9 insertions(+)
